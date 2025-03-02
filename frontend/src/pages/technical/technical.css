@@ -5,8 +5,10 @@
 
 .technical {
   margin-top: 75px;
+  margin-left: 75px;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
 }
 
 #video-container {
@@ -22,15 +24,16 @@
 }
 
 #video {
-  width: 200px;
+  width: 175px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  padding: 10px;
+  padding: 7.5px;
   margin: 10px;
-  height: 225px;
-  background-color: #f6dddd; /* Add a slight background /
+  /* height: 225px; */
+  background-color: #f6dddd;
+  /* Add a slight background /
   transition: transform 0.5s ease; / Add a hover effect */
 }
